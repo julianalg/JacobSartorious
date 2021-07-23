@@ -4,7 +4,7 @@ import time
 print("Welcome to the Jacob Sartorius Music Video Spam Opener!")
 print("")
 print("For tips regarding the delay, refer to the README.md")
-delay = int(input("How long would you like the delay to be? "))
+delay = int(input("How long would you like the delay to be? (in seconds)"))
 
 
 print("In order to stop this code from running, quit the process in your IDE.")
@@ -23,6 +23,5 @@ while runInput == 'y':
 	webbrowser.open('https://www.youtube.com/watch?v=6OSOVpEeqCc')
 	time.sleep(delay)
 else:
-	print('well shit')
 	print('check out more projects from the creator here: ')
 	print('julianagar.carrd.co')
