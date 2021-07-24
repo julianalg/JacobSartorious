@@ -2,13 +2,10 @@ import webbrowser
 import time
 
 print("Welcome to the Jacob Sartorius Music Video Spam Opener!")
+print("Check the README.md for disclaimers and other information")
 print("")
-print("For tips regarding the delay, refer to the README.md")
 delay = int(input("How long would you like the delay to be? (in seconds)"))
 
-
-print("In order to stop this code from running, quit the process in your IDE.")
-print("I am not responsible for any damage this creates.")
 runInput = input("Would you like to run this? 'y' to run, anything else to quit. ")
 
 while runInput == 'y':
