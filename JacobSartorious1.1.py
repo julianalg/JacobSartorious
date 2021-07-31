@@ -1,14 +1,16 @@
 import webbrowser
 import time
 
+runInput = 'y'
+rounds = 0 
+print("Check for updates here: https://github.com/julianagar/JacobSartorious")
 delay = float(input("How long would you like the delay to be? "))
 
-print("In order to stop this code from running, quit the process in your IDE.")
-print("I am not responsible for any damage this creates.")
-runInput = input("Would you like to run this? 'y' to run, anything else to quit. ")
-rounds = 0 
+print('Program will run in 3 seconds')
+print('This script may crash your computer! Save any unfinished work and use with caution!')
+time.sleep(3)
+
 while runInput == 'y':
-	print("no stopping now!")
 	webbrowser.open('https://www.youtube.com/watch?v=IvxRsDpXPGo')
 	time.sleep(delay)
 	webbrowser.open('https://www.youtube.com/watch?v=X6yXm88fCa4')
@@ -37,7 +39,3 @@ while runInput == 'y':
 	time.sleep(delay)
 	rounds = rounds + 1
 	print(rounds)
-else:
-	print('run stopped')
-	print('check out more projects from the creator here: ')
-	print('julianagar.carrd.co')
