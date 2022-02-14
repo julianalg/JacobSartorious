@@ -1,16 +1,10 @@
 import webbrowser
 import time
 
-runInput = 'y'
 rounds = 0 
-print("Check for updates here: https://github.com/julianagar/JacobSartorious")
-delay = float(input("How long would you like the delay to be? "))
+delay = 5 # default value
 
-print('Program will run in 3 seconds')
-print('This script may crash your computer! Save any unfinished work and use with caution!')
-time.sleep(3)
-
-while runInput == 'y':
+while True:
 	webbrowser.open('https://www.youtube.com/watch?v=IvxRsDpXPGo')
 	time.sleep(delay)
 	webbrowser.open('https://www.youtube.com/watch?v=X6yXm88fCa4')
